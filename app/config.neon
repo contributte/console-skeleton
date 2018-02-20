@@ -1,0 +1,37 @@
+# ======================================
+# Nette ================================
+php:
+	date.timezone: Europe/Prague
+	# session.save_path: %tempDir%/session
+	# zlib.output_compression: true
+
+tracy:
+	email: %project.error.email%
+	strictMode: yes
+
+# ======================================
+# Default parameters ===================
+
+parameters:
+	project:
+		error:
+			email: webmaster@tlapnet.cz
+
+# ======================================
+# Default extensions ===================
+extensions:
+	autoload: Contributte\DI\Extension\ResourceExtension
+	console: Contributte\Console\DI\ConsoleExtension
+
+autoload:
+	resources:
+		App\Commands\:
+			paths: [%appDir%/commands]
+
+console:
+	name: Tlapnet
+	version: 1.0.0
+
+# ======================================
+# Services =============================
+services:
