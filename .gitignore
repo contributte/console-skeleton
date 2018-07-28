@@ -1,12 +1,8 @@
-# Temps
-/var/log/*
-/var/temp/*
+# IDE
+/.idea
 
 # Composer
 /vendor/*
-
-# Apache
-!.htaccess
 
 # Nette config
 /app/config/config.local.neon
