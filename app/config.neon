@@ -15,21 +15,21 @@ tracy:
 parameters:
 	project:
 		error:
-			email: webmaster@tlapnet.cz
+			email: webmaster@example.tld
 
 # ======================================
 # Default extensions ===================
 extensions:
-	autoload: Contributte\DI\Extension\ResourceExtension
+	resources: Contributte\DI\Extension\ResourceExtension
 	console: Contributte\Console\DI\ConsoleExtension(%consoleMode%)
 
-autoload:
+resources:
 	resources:
 		App\Commands\:
-			paths: [%appDir%/Commands]
+			paths: [%appDir%/commands]
 
 console:
-	name: Tlapnet
+	name: Cindy
 	version: 1.0.0
 
 # ======================================
