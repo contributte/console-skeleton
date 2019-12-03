@@ -9,7 +9,7 @@
 </p>
 
 <p align=center>
-    <code>composer create-project planette/cindy-project@dev acme</code>
+    <code>composer create-project -s dev planette/cindy-project acme</code>
 </p>
 
 <p align=center>
@@ -25,7 +25,7 @@ You will need `PHP 7.2+` and [Composer](https://getcomposer.org/).
 Create project using composer.
 
 ```
-composer create-project planette/cindy-project@dev acme
+composer create-project -s dev planette/cindy-project acme
 ```
 
 Now you have application installed. It's time to run it.
@@ -54,6 +54,6 @@ We use [RobotLoader](https://doc.nette.org/cs/3.0/robotloader) for autoloading .
 
 ## Sponsoring
 
-<a href="https://github.com/tlapnet"><img  width="200" src="https://cdn.rawgit.com/f3l1x/xsource/2463efb7/assets/tlapdev.png"></a>
+<a href="https://github.com/tlapnet"><img  width="200" src="https://rawcdn.githack.com/f3l1x/xsource/b2663bd230b4ca50521fe6c7c554e484dd91e24d/assets/tlapdev.png"></a>
 
 The development is sponsored by [Tlapnet](https://www.tlapnet.cz).
