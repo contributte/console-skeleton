@@ -20,9 +20,9 @@
 
 ## Installation
 
-You will need `PHP 7.2+` and [Composer](https://getcomposer.org/). 
+You will need `PHP 7.2+` and [Composer](https://getcomposer.org/).
 
-Create project using composer. 
+Create project using composer.
 
 ```
 composer create-project planette/cindy-project@dev acme
@@ -39,7 +39,7 @@ bin/console
 ```
 
 ## Backend
- 
+
 It's based on [Contributte](https://contributte.org/) packages.
 
 - [`contributte/bootstrap`](https://github.com/contributte/bootstrap)
@@ -56,4 +56,4 @@ We use [RobotLoader](https://doc.nette.org/cs/3.0/robotloader) for autoloading .
 
 <a href="https://github.com/tlapnet"><img  width="200" src="https://cdn.rawgit.com/f3l1x/xsource/2463efb7/assets/tlapdev.png"></a>
 
-The development is sponsored by [Tlapnet](https://www.tlapnet.cz)
+The development is sponsored by [Tlapnet](https://www.tlapnet.cz).
