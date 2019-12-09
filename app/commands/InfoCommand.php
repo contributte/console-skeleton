@@ -9,6 +9,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 final class InfoCommand extends Command
 {
 
+	/** @var string */
 	protected static $defaultName = 'app:info';
 
 	protected function configure(): void
