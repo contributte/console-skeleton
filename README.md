@@ -16,6 +16,9 @@
     <img src="https://raw.githubusercontent.com/planette/cindy-project/master/.docs/screenshot1.png">
 </p>
 
+[![Build Status](https://img.shields.io/travis/planette/cindy-project.svg?style=flat-square)](https://travis-ci.org/planette/cindy-project)
+[![Join the chat](https://img.shields.io/gitter/room/contributte/contributte.svg?style=flat-square)](http://bit.ly/ctteg)
+
 -----
 
 ## Installation
