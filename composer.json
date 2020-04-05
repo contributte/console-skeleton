@@ -1,6 +1,6 @@
 {
   "name": "planette/cindy-project",
-  "description": "Cindy Project is a CLI starter kit project for Nette Framework with Symfony Console and many useful libraries.",
+  "description": "Cindy Project is a CLI starter kit project for Nette Framework with Symfony Console and many useful libraries by @f3l1x.",
   "keywords": [
     "php",
     "nette",
