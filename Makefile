@@ -1,6 +1,6 @@
 .PHONY: qa cs cfx phpstan tests build
 
-qa: lint cs phpstan
+qa: cs phpstan
 
 cs:
 	vendor/bin/codesniffer app
