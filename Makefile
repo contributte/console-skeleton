@@ -1,9 +1,6 @@
-.PHONY: qa lint cs cfx phpstan tests build
+.PHONY: qa cs cfx phpstan tests build
 
 qa: lint cs phpstan
-
-lint:
-	vendor/bin/linter app
 
 cs:
 	vendor/bin/codesniffer app
