@@ -415,16 +415,16 @@
         },
         {
             "name": "latte/latte",
-            "version": "v2.9.1",
+            "version": "v2.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/latte.git",
-                "reference": "fa7bc18569d716d1efffde14ac4ff65ddf1dc132"
+                "reference": "f66806cb6dff34ae536348524bb20965f74766fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/latte/zipball/fa7bc18569d716d1efffde14ac4ff65ddf1dc132",
-                "reference": "fa7bc18569d716d1efffde14ac4ff65ddf1dc132",
+                "url": "https://api.github.com/repos/nette/latte/zipball/f66806cb6dff34ae536348524bb20965f74766fe",
+                "reference": "f66806cb6dff34ae536348524bb20965f74766fe",
                 "shasum": ""
             },
             "require": {
@@ -490,9 +490,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/latte/issues",
-                "source": "https://github.com/nette/latte/tree/v2.9.1"
+                "source": "https://github.com/nette/latte/tree/v2.9.2"
             },
-            "time": "2020-11-24T00:57:37+00:00"
+            "time": "2020-12-16T23:52:58+00:00"
         },
         {
             "name": "nette/bootstrap",
@@ -1865,16 +1865,16 @@
         },
         {
             "name": "tracy/tracy",
-            "version": "v2.7.6",
+            "version": "v2.7.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/tracy.git",
-                "reference": "7e7e73d52c7e9ff0fd29dbd5b1cfdc03f3947942"
+                "reference": "100e72717b2c199fd3e1d1724d576edc07b252eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/tracy/zipball/7e7e73d52c7e9ff0fd29dbd5b1cfdc03f3947942",
-                "reference": "7e7e73d52c7e9ff0fd29dbd5b1cfdc03f3947942",
+                "url": "https://api.github.com/repos/nette/tracy/zipball/100e72717b2c199fd3e1d1724d576edc07b252eb",
+                "reference": "100e72717b2c199fd3e1d1724d576edc07b252eb",
                 "shasum": ""
             },
             "require": {
@@ -1925,7 +1925,7 @@
                     "homepage": "https://nette.org/contributors"
                 }
             ],
-            "description": "😎 Tracy: the addictive tool to ease debugging PHP code for cool developers. Friendly design, logging, profiler, advanced features like debugging AJAX calls or CLI support. You will love it.",
+            "description": "😎  Tracy: the addictive tool to ease debugging PHP code for cool developers. Friendly design, logging, profiler, advanced features like debugging AJAX calls or CLI support. You will love it.",
             "homepage": "https://tracy.nette.org",
             "keywords": [
                 "Xdebug",
@@ -1936,9 +1936,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/tracy/issues",
-                "source": "https://github.com/nette/tracy/tree/v2.7.6"
+                "source": "https://github.com/nette/tracy/tree/v2.7.7"
             },
-            "time": "2020-11-02T17:06:27+00:00"
+            "time": "2020-12-16T23:36:16+00:00"
         }
     ],
     "packages-dev": [
