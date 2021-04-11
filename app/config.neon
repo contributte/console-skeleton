@@ -15,7 +15,7 @@ tracy:
 parameters:
 	project:
 		error:
-			email: webmaster@example.tld
+			email: dev@localhost
 
 # ======================================
 # Default extensions ===================
@@ -29,7 +29,7 @@ resources:
 			paths: [%appDir%/commands]
 
 console:
-	name: Cindy
+	name: Contributte
 	version: 1.0.0
 
 # ======================================
