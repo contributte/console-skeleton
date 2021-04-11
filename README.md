@@ -1,18 +1,14 @@
-<h1 align=center>Cindy Project</h1>
+![](https://heatbadger.now.sh/github/readme/contributte/console-skeleton/)
 
 <p align=center>
-    <strong>Cindy Project</strong> is a CLI starter kit project for Nette Framework with <a href="https://symfony.com/doc/current/components/console.html">Symfony Console</a>
-    and many useful libraries by <a href="https://github.com/f3l1x">@f3l1x</a>.
+  <a href="https://github.com/contributte/console-skeleton/actions"><img src="https://badgen.net/github/checks/contributte/console-skeleton/master"></a>
+  <a href="https://coveralls.io/r/contributte/console-skeleton"><img src="https://badgen.net/coveralls/c/github/contributte/console-skeleton"></a>
+  <a href="https://packagist.org/packages/contributte/console-skeleton"><img src="https://badgen.net/packagist/dm/contributte/console-skeleton"></a>
+  <a href="https://packagist.org/packages/contributte/console-skeleton"><img src="https://badgen.net/packagist/v/contributte/console-skeleton"></a>
 </p>
-
 <p align=center>
-    <img src="https://raw.githubusercontent.com/planette/cindy-project/master/.docs/screenshot1.png">
-</p>
-
-<p align=center>
-  <a href="https://github.com/planette/cindy-project/actions"><img src="https://badgen.net/github/checks/planette/cindy-project/master?cache=300"></a>
-  <a href="https://packagist.org/packages/planette/cindy-project"><img src="https://badgen.net/packagist/php/planette/cindy-project"></a>
-  <a href="https://github.com/planette/cindy-project"><img src="https://badgen.net/github/license/planette/cindy-project"></a>
+  <a href="https://packagist.org/packages/contributte/console-skeleton"><img src="https://badgen.net/packagist/php/contributte/console-skeleton"></a>
+  <a href="https://github.com/contributte/console-skeleton"><img src="https://badgen.net/github/license/contributte/console-skeleton"></a>
   <a href="https://bit.ly/ctteg"><img src="https://badgen.net/badge/support/gitter/cyan"></a>
   <a href="https://bit.ly/cttfo"><img src="https://badgen.net/badge/support/forum/yellow"></a>
   <a href="https://contributte.org/partners.html"><img src="https://badgen.net/badge/sponsor/donations/F96854"></a>
@@ -22,16 +18,24 @@
 Website 🚀 <a href="https://contributte.org">contributte.org</a> | Contact 👨🏻‍💻 <a href="https://f3l1x.io">f3l1x.io</a> | Twitter 🐦 <a href="https://twitter.com/contributte">@contributte</a>
 </p>
 
+<p align=center>
+	<img src="https://raw.githubusercontent.com/contributte/console-skeleton/master/.docs/screenshot1.png">
+</p>
+
 -----
+
+## Goal
+
+Main goal is to provide terminal-based console-kit project for Nette developers.
 
 ## Installation
 
-You will need `PHP 7.2+` and [Composer](https://getcomposer.org/).
+You will need `PHP 7.4+` and [Composer](https://getcomposer.org/).
 
 Create project using composer.
 
 ```bash
-composer create-project -s dev planette/cindy-project acme
+composer create-project -s dev contributte/console-skeleton acme
 ```
 
 Now you have application installed. It's time to run it.
