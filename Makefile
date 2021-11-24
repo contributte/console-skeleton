@@ -5,7 +5,7 @@ qa: cs phpstan
 cs:
 	vendor/bin/codesniffer app
 
-cfx:
+csf:
 	vendor/bin/codefixer app
 
 phpstan:
