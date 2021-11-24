@@ -11,7 +11,7 @@ $configurator->enableDebugger(__DIR__ . '/../var/log');
 $configurator->setTempDirectory(__DIR__ . '/../var/tmp');
 
 $configurator->addConfig(__DIR__ . '/../config/config.neon');
-$configurator->addConfig(__DIR__ . '/../config/config.local.neon');
+$configurator->addConfig(__DIR__ . '/../config/local.neon');
 
 $container = $configurator->createContainer();
 
