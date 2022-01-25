@@ -13,6 +13,4 @@ $configurator->setTempDirectory(__DIR__ . '/../var/tmp');
 $configurator->addConfig(__DIR__ . '/../config/config.neon');
 $configurator->addConfig(__DIR__ . '/../config/local.neon');
 
-$container = $configurator->createContainer();
-
-return $container;
+return $configurator->createContainer();

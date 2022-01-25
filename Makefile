@@ -25,13 +25,13 @@ clean:
 qa: cs phpstan
 
 cs:
-	vendor/bin/codesniffer app tests
+	vendor/bin/codesniffer app
 
 csf:
-	vendor/bin/codefixer app tests
+	vendor/bin/codefixer app
 
 phpstan:
-	vendor/bin/phpstan analyse -c phpstan.neon --memory-limit=512M app tests/toolkit
+	vendor/bin/phpstan analyse -c phpstan.neon --memory-limit=512M app
 
 tests:
 	vendor/bin/tester -s -p php --colors 1 -C tests
