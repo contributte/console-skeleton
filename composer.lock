@@ -2552,16 +2552,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.4.5",
+            "version": "1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "150d1fbd82fb71ff76b3bd7f6ea6006d89c5f0c3"
+                "reference": "1dd8f3e40bf7aa30031a75c65cece99220a161b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/150d1fbd82fb71ff76b3bd7f6ea6006d89c5f0c3",
-                "reference": "150d1fbd82fb71ff76b3bd7f6ea6006d89c5f0c3",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/1dd8f3e40bf7aa30031a75c65cece99220a161b8",
+                "reference": "1dd8f3e40bf7aa30031a75c65cece99220a161b8",
                 "shasum": ""
             },
             "require": {
@@ -2592,7 +2592,7 @@
             "description": "PHPStan - PHP Static Analysis Tool",
             "support": {
                 "issues": "https://github.com/phpstan/phpstan/issues",
-                "source": "https://github.com/phpstan/phpstan/tree/1.4.5"
+                "source": "https://github.com/phpstan/phpstan/tree/1.4.2"
             },
             "funding": [
                 {
@@ -2612,7 +2612,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-02-02T19:35:10+00:00"
+            "time": "2022-01-18T16:09:11+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
@@ -2666,16 +2666,16 @@
         },
         {
             "name": "phpstan/phpstan-doctrine",
-            "version": "1.2.8",
+            "version": "1.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan-doctrine.git",
-                "reference": "c49475b7b5b8bf08a15114b86899099575bf7545"
+                "reference": "46256c90118589b9d823cb8352c0abcd325ec8ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan-doctrine/zipball/c49475b7b5b8bf08a15114b86899099575bf7545",
-                "reference": "c49475b7b5b8bf08a15114b86899099575bf7545",
+                "url": "https://api.github.com/repos/phpstan/phpstan-doctrine/zipball/46256c90118589b9d823cb8352c0abcd325ec8ff",
+                "reference": "46256c90118589b9d823cb8352c0abcd325ec8ff",
                 "shasum": ""
             },
             "require": {
@@ -2731,9 +2731,9 @@
             "description": "Doctrine extensions for PHPStan",
             "support": {
                 "issues": "https://github.com/phpstan/phpstan-doctrine/issues",
-                "source": "https://github.com/phpstan/phpstan-doctrine/tree/1.2.8"
+                "source": "https://github.com/phpstan/phpstan-doctrine/tree/1.2.7"
             },
-            "time": "2022-01-28T11:06:16+00:00"
+            "time": "2022-01-25T13:05:19+00:00"
         },
         {
             "name": "phpstan/phpstan-nette",
