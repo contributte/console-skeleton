@@ -40,6 +40,11 @@
       "App\\Commands\\": "app/commands"
     }
   },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  },
   "prefer-stable": true,
   "minimum-stability": "dev"
 }
