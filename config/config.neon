@@ -26,7 +26,7 @@ extensions:
 resources:
 	resources:
 		App\Commands\:
-			paths: [%appDir%/commands]
+			paths: [%appDir%/Commands]
 
 console:
 	name: Contributte

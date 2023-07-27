@@ -3,9 +3,9 @@
 namespace Tests\Cases\E2E\Container;
 
 use App\Bootstrap;
-use Symfony\Component\Console\Application as CliApplication;
 use Contributte\Utils\FileSystem;
 use Nette\DI\Container;
+use Symfony\Component\Console\Application as CliApplication;
 use Tester\Assert;
 use Tester\TestCase;
 use Tests\Toolkit\Tests;
