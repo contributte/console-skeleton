@@ -15,7 +15,7 @@ tracy:
 parameters:
 	project:
 		error:
-			email: dev@localhost
+			email: dev@localhost.dev
 
 # ======================================
 # Default extensions ===================
