@@ -2,25 +2,27 @@
 
 namespace App\Commands;
 
+use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
+#[AsCommand(name: self::NAME)]
 final class InfoCommand extends Command
 {
 
-	/** @var string */
-	protected static $defaultName = 'app:info';
+	public const NAME = 'app:info';
 
 	protected function configure(): void
 	{
-		$this->setName(self::$defaultName);
+		$this->setName(self::NAME);
 		$this->setDescription('This is info command. Just dump info');
 	}
 
 	protected function execute(InputInterface $input, OutputInterface $output): int
 	{
 		$output->writeln("I'm info command");
+
 		return 0;
 	}
 
