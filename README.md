@@ -30,7 +30,7 @@ Main goal is to provide terminal-based console-kit project for Nette developers.
 
 ## Installation
 
-You will need `PHP 7.4+` and [Composer](https://getcomposer.org/).
+You will need `PHP 8.1+` and [Composer](https://getcomposer.org/).
 
 Create project using composer.
 
@@ -58,9 +58,6 @@ It's based on [Contributte](https://contributte.org/) packages.
 - [`contributte/latte`](https://github.com/contributte/latte)
 - [`contributte/tracy`](https://github.com/contributte/tracy)
 - [`contributte/console`](https://github.com/contributte/console)
-- [`nette/robot-loader`](https://github.com/nette/robot-loader)
-
-This project is using [RobotLoader](https://doc.nette.org/cs/3.0/robotloader) for autoloading .
 
 ## Development
 
