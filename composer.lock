@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8dadafe9bea7c7766fd013eb5f831b28",
+    "content-hash": "314d3d501c469745e182f1a81a7d0924",
     "packages": [
         {
             "name": "contributte/bootstrap",
@@ -1822,28 +1822,28 @@
         },
         {
             "name": "contributte/phpstan",
-            "version": "v0.1.0",
+            "version": "v0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contributte/phpstan.git",
-                "reference": "12731b3619c55d31bdbae73f814d6b7ee976c1e3"
+                "reference": "392afbf783b24bfd0af5849f5b9a72e1fe812634"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contributte/phpstan/zipball/12731b3619c55d31bdbae73f814d6b7ee976c1e3",
-                "reference": "12731b3619c55d31bdbae73f814d6b7ee976c1e3",
+                "url": "https://api.github.com/repos/contributte/phpstan/zipball/392afbf783b24bfd0af5849f5b9a72e1fe812634",
+                "reference": "392afbf783b24bfd0af5849f5b9a72e1fe812634",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.0",
-                "phpstan/phpstan": "^1.10.15",
-                "phpstan/phpstan-deprecation-rules": "^1.1.3",
-                "phpstan/phpstan-nette": "^1.2.9",
-                "phpstan/phpstan-strict-rules": "^1.5.1"
+                "phpstan/phpstan": "^2.0.1",
+                "phpstan/phpstan-deprecation-rules": "^2.0.0",
+                "phpstan/phpstan-nette": "^2.0.0",
+                "phpstan/phpstan-strict-rules": "^2.0.0"
             },
             "require-dev": {
                 "contributte/qa": "^0.4",
-                "contributte/tester": "^0.1"
+                "contributte/tester": "^v0.3.0"
             },
             "type": "library",
             "extra": {
@@ -1866,7 +1866,7 @@
                     "homepage": "https://f3l1x.io"
                 }
             ],
-            "description": "Opinionated set of phpstan extensions & rules for all fans.",
+            "description": "Opinionated set of PHPStan extensions & rules for all fans.",
             "homepage": "https://github.com/contributte/phpstan",
             "keywords": [
                 "PHPStan",
@@ -1877,7 +1877,7 @@
             ],
             "support": {
                 "issues": "https://github.com/contributte/phpstan/issues",
-                "source": "https://github.com/contributte/phpstan/tree/v0.1.0"
+                "source": "https://github.com/contributte/phpstan/tree/v0.2"
             },
             "funding": [
                 {
@@ -1889,7 +1889,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-06-04T12:37:12+00:00"
+            "time": "2024-11-18T10:58:44+00:00"
         },
         {
             "name": "contributte/qa",
@@ -2235,20 +2235,20 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.59",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "e607609388d3a6d418a50a49f7940e8086798281"
+                "reference": "6c98c7600fc717b2c78c11ef60040d5b1e359c82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/e607609388d3a6d418a50a49f7940e8086798281",
-                "reference": "e607609388d3a6d418a50a49f7940e8086798281",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/6c98c7600fc717b2c78c11ef60040d5b1e359c82",
+                "reference": "6c98c7600fc717b2c78c11ef60040d5b1e359c82",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2|^8.0"
+                "php": "^7.4|^8.0"
             },
             "conflict": {
                 "phpstan/phpstan-shim": "*"
@@ -2287,37 +2287,32 @@
                 {
                     "url": "https://github.com/phpstan",
                     "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/phpstan/phpstan",
-                    "type": "tidelift"
                 }
             ],
-            "time": "2024-02-20T13:59:13+00:00"
+            "time": "2024-11-17T14:17:00+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
-            "version": "1.1.4",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan-deprecation-rules.git",
-                "reference": "089d8a8258ed0aeefdc7b68b6c3d25572ebfdbaa"
+                "reference": "81833b5787e2e8f451b31218875e29e4ed600ab2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan-deprecation-rules/zipball/089d8a8258ed0aeefdc7b68b6c3d25572ebfdbaa",
-                "reference": "089d8a8258ed0aeefdc7b68b6c3d25572ebfdbaa",
+                "url": "https://api.github.com/repos/phpstan/phpstan-deprecation-rules/zipball/81833b5787e2e8f451b31218875e29e4ed600ab2",
+                "reference": "81833b5787e2e8f451b31218875e29e4ed600ab2",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2 || ^8.0",
-                "phpstan/phpstan": "^1.10.3"
+                "php": "^7.4 || ^8.0",
+                "phpstan/phpstan": "^2.0"
             },
             "require-dev": {
                 "php-parallel-lint/php-parallel-lint": "^1.2",
-                "phpstan/phpstan-php-parser": "^1.1",
-                "phpstan/phpstan-phpunit": "^1.0",
-                "phpunit/phpunit": "^9.5"
+                "phpstan/phpstan-phpunit": "^2.0",
+                "phpunit/phpunit": "^9.6"
             },
             "type": "phpstan-extension",
             "extra": {
@@ -2339,27 +2334,27 @@
             "description": "PHPStan rules for detecting usage of deprecated classes, methods, properties, constants and traits.",
             "support": {
                 "issues": "https://github.com/phpstan/phpstan-deprecation-rules/issues",
-                "source": "https://github.com/phpstan/phpstan-deprecation-rules/tree/1.1.4"
+                "source": "https://github.com/phpstan/phpstan-deprecation-rules/tree/2.0.0"
             },
-            "time": "2023-08-05T09:02:04+00:00"
+            "time": "2024-10-26T16:04:11+00:00"
         },
         {
             "name": "phpstan/phpstan-nette",
-            "version": "1.2.9",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan-nette.git",
-                "reference": "0e3a6805917811d685e59bb83c2286315f2f6d78"
+                "reference": "200d1926c57f6feda0d0f3056985fceccd8003c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan-nette/zipball/0e3a6805917811d685e59bb83c2286315f2f6d78",
-                "reference": "0e3a6805917811d685e59bb83c2286315f2f6d78",
+                "url": "https://api.github.com/repos/phpstan/phpstan-nette/zipball/200d1926c57f6feda0d0f3056985fceccd8003c0",
+                "reference": "200d1926c57f6feda0d0f3056985fceccd8003c0",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2 || ^8.0",
-                "phpstan/phpstan": "^1.10"
+                "php": "^7.4 || ^8.0",
+                "phpstan/phpstan": "^2.0"
             },
             "conflict": {
                 "nette/application": "<2.3.0",
@@ -2371,14 +2366,13 @@
             },
             "require-dev": {
                 "nette/application": "^3.0",
+                "nette/di": "^3.1.10",
                 "nette/forms": "^3.0",
                 "nette/utils": "^2.3.0 || ^3.0.0",
-                "nikic/php-parser": "^4.13.2",
                 "php-parallel-lint/php-parallel-lint": "^1.2",
-                "phpstan/phpstan-php-parser": "^1.1",
-                "phpstan/phpstan-phpunit": "^1.0",
-                "phpstan/phpstan-strict-rules": "^1.0",
-                "phpunit/phpunit": "^9.5"
+                "phpstan/phpstan-phpunit": "^2.0",
+                "phpstan/phpstan-strict-rules": "^2.0",
+                "phpunit/phpunit": "^9.6"
             },
             "type": "phpstan-extension",
             "extra": {
@@ -2401,34 +2395,33 @@
             "description": "Nette Framework class reflection extension for PHPStan",
             "support": {
                 "issues": "https://github.com/phpstan/phpstan-nette/issues",
-                "source": "https://github.com/phpstan/phpstan-nette/tree/1.2.9"
+                "source": "https://github.com/phpstan/phpstan-nette/tree/2.0.1"
             },
-            "time": "2023-04-12T14:11:53+00:00"
+            "time": "2024-11-15T13:42:54+00:00"
         },
         {
             "name": "phpstan/phpstan-strict-rules",
-            "version": "1.5.2",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan-strict-rules.git",
-                "reference": "7a50e9662ee9f3942e4aaaf3d603653f60282542"
+                "reference": "a4a6a08bd4a461e516b9c3b8fdbf0f1883b34158"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan-strict-rules/zipball/7a50e9662ee9f3942e4aaaf3d603653f60282542",
-                "reference": "7a50e9662ee9f3942e4aaaf3d603653f60282542",
+                "url": "https://api.github.com/repos/phpstan/phpstan-strict-rules/zipball/a4a6a08bd4a461e516b9c3b8fdbf0f1883b34158",
+                "reference": "a4a6a08bd4a461e516b9c3b8fdbf0f1883b34158",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2 || ^8.0",
-                "phpstan/phpstan": "^1.10.34"
+                "php": "^7.4 || ^8.0",
+                "phpstan/phpstan": "^2.0"
             },
             "require-dev": {
-                "nikic/php-parser": "^4.13.0",
                 "php-parallel-lint/php-parallel-lint": "^1.2",
-                "phpstan/phpstan-deprecation-rules": "^1.1",
-                "phpstan/phpstan-phpunit": "^1.0",
-                "phpunit/phpunit": "^9.5"
+                "phpstan/phpstan-deprecation-rules": "^2.0",
+                "phpstan/phpstan-phpunit": "^2.0",
+                "phpunit/phpunit": "^9.6"
             },
             "type": "phpstan-extension",
             "extra": {
@@ -2450,9 +2443,9 @@
             "description": "Extra strict and opinionated rules for PHPStan",
             "support": {
                 "issues": "https://github.com/phpstan/phpstan-strict-rules/issues",
-                "source": "https://github.com/phpstan/phpstan-strict-rules/tree/1.5.2"
+                "source": "https://github.com/phpstan/phpstan-strict-rules/tree/2.0.0"
             },
-            "time": "2023-10-30T14:35:06+00:00"
+            "time": "2024-10-26T16:04:33+00:00"
         },
         {
             "name": "slevomat/coding-standard",
