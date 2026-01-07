@@ -1827,16 +1827,16 @@
         },
         {
             "name": "contributte/phpstan",
-            "version": "v0.3.0",
+            "version": "v0.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contributte/phpstan.git",
-                "reference": "dbc466d26fd21e87d1a9d63fa3f96fbf53696b44"
+                "reference": "73333d9c141521af59b2dc1ed04b1946b36c2723"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contributte/phpstan/zipball/dbc466d26fd21e87d1a9d63fa3f96fbf53696b44",
-                "reference": "dbc466d26fd21e87d1a9d63fa3f96fbf53696b44",
+                "url": "https://api.github.com/repos/contributte/phpstan/zipball/73333d9c141521af59b2dc1ed04b1946b36c2723",
+                "reference": "73333d9c141521af59b2dc1ed04b1946b36c2723",
                 "shasum": ""
             },
             "require": {
@@ -1853,7 +1853,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.3.x-dev"
+                    "dev-master": "0.4.x-dev"
                 }
             },
             "autoload": {
@@ -1882,7 +1882,7 @@
             ],
             "support": {
                 "issues": "https://github.com/contributte/phpstan/issues",
-                "source": "https://github.com/contributte/phpstan/tree/v0.3.0"
+                "source": "https://github.com/contributte/phpstan/tree/v0.3.1"
             },
             "funding": [
                 {
@@ -1894,7 +1894,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-01-04T17:28:07+00:00"
+            "time": "2026-01-06T13:10:36+00:00"
         },
         {
             "name": "contributte/qa",
