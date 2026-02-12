@@ -2,7 +2,7 @@
 <ruleset name="Contributte">
 
 	<!-- Extending rulesets -->
-	<rule ref="./vendor/contributte/qa/ruleset.xml"/>
+	<rule ref="./vendor/contributte/qa/ruleset-8.4.xml"/>
 
 	<!-- Specific rules -->
 	<rule ref="SlevomatCodingStandard.Files.TypeNameMatchesFileName">

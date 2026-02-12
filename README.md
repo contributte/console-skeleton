@@ -30,7 +30,7 @@ Main goal is to provide terminal-based console-kit project for Nette developers.
 
 ## Installation
 
-You will need `PHP 8.2+` and [Composer](https://getcomposer.org/).
+You will need `PHP 8.4+` and [Composer](https://getcomposer.org/).
 
 Create project using composer.
 
