@@ -3,6 +3,7 @@
 namespace App;
 
 use Contributte\Bootstrap\ExtraConfigurator;
+use Nette\Bootstrap\Configurator;
 use Nette\DI\Compiler;
 use Symfony\Component\Console\Application as SymfonyApplication;
 use Tracy\Debugger;
@@ -15,9 +16,10 @@ final class Bootstrap
 		$configurator = new ExtraConfigurator();
 		$configurator->setTempDirectory(__DIR__ . '/../var/tmp');
 
-		$configurator->onCompile[] = function (ExtraConfigurator $configurator, Compiler $compiler): void {
-			// Add env variables to config structure
-			$compiler->addConfig(['parameters' => $configurator->getEnvironmentParameters()]);
+		$configurator->onCompile[] = function (Configurator $configurator, Compiler $compiler): void {
+			if ($configurator instanceof ExtraConfigurator) {
+				$compiler->addConfig(['parameters' => $configurator->getEnvironmentParameters()]);
+			}
 		};
 
 		// According to NETTE_DEBUG env
